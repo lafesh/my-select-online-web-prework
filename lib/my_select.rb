@@ -11,3 +11,12 @@ def my_select(collection)
  end 
  new_collection
 end
+
+
+my_select([0,1,2,3]) do |element|
+  
+end
+
+array.select do |element|
+  element.even?
+end
